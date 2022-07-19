@@ -1,0 +1,21 @@
+{
+  "name": "minimal-ts-to-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "transpile.js",
+  "scripts": {
+    "build": "node_modules/.bin/rollup -c rollup.config.js"
+  },
+  "author": "https://github.com/p-buddy",
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.77.0",
+    "rollup-plugin-polyfill-node": "^0.10.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "tsc": "^2.0.4",
+    "typescript": "^4.7.4"
+  }
+}
